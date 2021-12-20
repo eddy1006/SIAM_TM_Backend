@@ -3,7 +3,7 @@ const app = express()
 const mongoClient = require('mongodb').MongoClient
 
 const port = process.env.PORT || 3000
-const url = "mongodb+srv://eddy1006:aditya%40106@cluster0.roqqm.mongodb.net/MyDb?retryWrites=true&w=majority"
+const url = "mongodb+srv://eddy1006:adityaa%40106@cluster0.roqqm.mongodb.net/MyDb?retryWrites=true&w=majority"
 app.use(express.json())
 
 mongoClient.connect(url, (err, db) => {
